@@ -1,0 +1,16 @@
+option(
+  'loadlib', type: 'boolean', value: false,
+  description: 'Allow Lua to "require" C extension modules'
+)
+option(
+  'line_editing', type: 'boolean', value: false,
+  description: 'Link with GNU readline (or libedit) to add history to the Lua interpreter.'
+)
+option(
+  'with_interpret', type: 'boolean', value: true,
+  description: 'Compile with lua interpreter.'
+)
+option(
+  'with_compiler', type: 'boolean', value: true,
+  description: 'Compile with luac compiler.'
+)
